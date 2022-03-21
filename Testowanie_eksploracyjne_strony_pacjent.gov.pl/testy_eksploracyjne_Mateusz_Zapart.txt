@@ -1,0 +1,71 @@
+#CEL: Testy eksploracyjne
+Wykonano testy funkcjonalne i testy użyteczności strony https://pacjent.gov.pl/
+-----------------------------------------------------------------------
+#TESTER:
+Mateusz Zapart
+-----------------------------------------------------------------------
+#START:
+12/15/2021, 16:12:45
+-----------------------------------------------------------------------
+#CZAS TRWANIA:
+60 min
+-----------------------------------------------------------------------
+#Środowisko:
+
+Brave Wersja 1.32.115 Chromium: 96.0.4664.93 (Oficjalna wersja) (64-bitowa)
+------------------
+#System Information
+------------------
+Time of this report: 12/15/2021, 16:12:45
+            
+         Operating System: Windows 10 Pro 64-bit (10.0, Build 19043) (19041.vb_release.191206-1406)
+                 Language: Polish (Regional Setting: Polish)
+      System Manufacturer: MSI
+             System Model: MS-7971
+                     BIOS: Default System BIOS (type: BIOS)
+                Processor: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz (4 CPUs), ~3.2GHz
+                   Memory: 16384MB RAM
+      Available OS Memory: 16348MB RAM
+                Page File: 12548MB used, 20182MB available
+              Windows Dir: C:\WINDOWS
+          DirectX Version: DirectX 12
+      DX Setup Parameters: Not found
+         User DPI Setting: 96 DPI (100 percent)
+       System DPI Setting: 96 DPI (100 percent)
+          DWM DPI Scaling: Disabled
+                 Miracast: Available, with HDCP
+Microsoft Graphics Hybrid: Not Supported
+ DirectX Database Version: 1.0.8
+           DxDiag Version: 10.00.19041.0928 64bit Unicode
+-----------------------------------------------------------------------
+#OBSZAR:
+- strona https://pacjent.gov.pl/ wraz z zawartymi treściami i elementami oraz jej podstrony
+- łącza i popraność przekierowania
+- spójność grafiki na stronie głównej oraz powiązanych podstronach
+- menu strony
+- nagłówek strony
+- stopka strony
+- wyszukiwarka
+- responsywność strony
+-----------------------------------------------------------------------
+#UWAGI:
+- Wszelkie frazy pojawiające się na stronie powinny być przetłumaczone z języka angielskiego na polski.
+- Przycisk "Zadaj nam pytanie" nie powinien uruchamiać się po otworzeniu nowej karty.
+- Należy poprawić literówki "w servisie" na "w serwisie" oraz "zł. nawyki żywieniowe" na "złe nawyki żywieniowe".
+-----------------------------------------------------------------------
+#DEFEKTY:
+1. Strona główna - Po otwarciu dowolnego linku w nowej karcie opcje przycisku "Zadaj nam pytanie" zawsze są automatycznie rozwinięte
+2. Wyszukiwarka - Po wpisaniu dowolnej frazy poniżej 3 znaków wyświetla się napis po angielsku
+3. Stopka - Literówka w wyrazie "servisie"
+4. Podstrona - Literówka w wyrażeniu "zł. nawyki żywieniowe"
+5. Wyszukiwarka - Po najechaniu kursorem na numery stron wyszukiwania wyświetla się podpowiedź w języku angielskim
+-----------------------------------------------------------------------
+#POZOSAŁE UWAGI:
+Strona jest stosunkowo prosta i przyjazna jeśli chodzi o kwestie użyteczności.
+Jednak w wyszukiwarce po wyszukaniu frazy i otrzymaniu wyników brak jest możliwości wpisania konkretnego numeru strony wyszukiwania.
+Możliwe jest tylko przejście do pierwszej, ostatniej lub aktualnie widocznej strony z dostępnego zakresu. 
+Utrudnia to swobodną nawigację po wyszukiwanych wynikach przy założeniu, że występuje dużo stron z wynikami.
+Wyszukiwarka nie posiada dodatkowych filtrów wyszukiwania - tutaj jest spore pole do poprawy w celu ułatwienia wyszukiwania potrzebnych fraz.
+-----------------------------------------------------------------------
+#ZAŁĄCZNIKI:
+Zrzuty z ekranu, pliki wideo
